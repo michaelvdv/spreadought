@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'poll',
         'USER': 'django',
         'PASSWORD': 'django',
-        'HOST':'.pythonanywhere.com',
+        'HOST':'.herokuapp.com',
         'PORT':'',
     }
 }
