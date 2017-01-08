@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+from vote.managers import VotableManager
 
 # Create your models here.
 class Question(models.Model):

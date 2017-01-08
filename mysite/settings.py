@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'poll',
+    'vote',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ DATABASES = {
         'NAME': 'poll',
         'USER': 'django',
         'PASSWORD': 'django',
-        'HOST':'',
+        'HOST':'localhost',
         'PORT':'',
     }
 }
